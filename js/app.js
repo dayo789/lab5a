@@ -12,12 +12,6 @@ function sum(a, b) { //eslint-disable-line
   var sum = a+b;
   var reultString = 'The sum of '+a+' and '+b +' is '+sum+'.';
   return[sum,reultString];
-
-  var str= "The sum of " + a+ " and "+b +" is " +sum +".";
-  var arr=[];
-  arr[0]=sum;
-  arr[1]=str;
-  return arr;
 }
 
 // Here is the test for sum(); uncomment it to run it
