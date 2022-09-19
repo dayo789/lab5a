@@ -97,11 +97,24 @@ let testArray = [2, 3, 4]; //eslint-disable-line
 
 function sumArray(sumArr) { //eslint-disable-line
 
+  var sum4_1 = sum (testArray[0] , testArray[1] )[0] ; 
+  var sum4_2 = sum (sum4_1 , testArray[2] )[0] ; 
+
+
+  var str4 =  testArray + " was passed in as an array of numbers, and "  + sum4_2 + " is their sum."  ; 
+
+  var arr4=[] ;
+  arr4[0] = sum4_2   ; 
+  arr4[1] =  str4   ; 
+
+
+
+  return arr4   ; 
 }
 
 // Here is the test for sumArray(); uncomment it to run it
 
-// testSumArray(testArray);
+testSumArray(testArray);
 
 // Once you get the test passing, do an a-c-p cycle and synchronize the code between GitHub and your laptop. Don't forget to create a new branch for your work on the next question!
 
